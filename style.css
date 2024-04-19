@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    margin: 40px 0 120px 40px;
+}
+
+.header-links {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #17233D;
+    margin-right: 40px;
+}
+
+.btn-sign-up {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background-color: #6FBF44;
+    width: 110px;
+    height: 41px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+img {
+    display: inline-block;
+    width: 425.18px;
+    margin: 0 80px 0 180px;
+
+}
+
+section {
+    display: inline-block;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 72px;
+    color: #161A49;
+    width: 482px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #4B505A;
+    width: 393px;
+    margin: 50px 0 50px;
+}
+
+.btn-learn-more {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: #6FBF44;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.header-links:hover {
+    font-size: 17px;
+    color: #0091ff;
+}
+
+.btn-sign-up:hover {
+    font-size: 19px;
+    background-color: #59ff00;
+}
+
+.btn-learn-more:hover {
+    font-size: 18px;
+    color: #59ff00;
+}
+
+@media screen and (max-width: 900px) {
+    .header-links {
+        display: none;
+    }
+    
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .btn-sign-up {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 60%;
+    }
+
+    img {
+        display: flex;
+        width: 75%;
+        margin: 10px auto 10px;
+    }
+
+    h1 {
+        font-size: 2.8rem;
+        width: 392px;
+    }
+
+    p {
+        font-size: 1rem;
+    width: 293px;
+    }
+
+    .btn-sign-up {
+        font-size: 1em;
+    }
+}
